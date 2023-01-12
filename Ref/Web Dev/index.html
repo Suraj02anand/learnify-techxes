@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Learnify - Test</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body class="">
+    <!-- place navbar here -->
+    <nav class="navbar navbar-expand-lg p-4" style="background-color: #DEDCEB;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/nav-logo.png" alt=""  height="36">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-lg-0">
+              <li class="nav-item mx-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link mx-auto mx-md-0" href="#">About</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link mx-auto mx-md-0" href="#">Blog</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link mx-auto mx-md-0" href="#">Courses</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link mx-auto mx-md-0" href="#">Resources</a>
+              </li>
+              <li class="nav-item mx-3">
+                <button class="btn btn-dark px-4 py-2 border-0" style="background-color: #4A318A;">Get Started</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <section id="home" class="p-3" style="background-color: #dedbec;">
+        <div class="d-flex flex-column align-items-center justify-content-center p-5 text-center">
+            <p class="main-title flex-item mb-3 fw-bold">Tech Conversations</p>
+            <p class="main-desc flex-item">Get to know the latest industry news, updates, emerging technologies and many more</p>
+        </div>
+    </section>  
+
+    <section id="posts">
+        <div class="navs d-none d-md-flex flex-row p-3 text-center align-items-center justify-content-center justify-content-lg-start">
+                <a class="self-nav-items self-nav-items-active flex-item text-decoration-none mx-1">All</a>
+                <a class="self-nav-items flex-item text-decoration-none mx-1">Data Analytics</a>
+                <a class="self-nav-items flex-item text-decoration-none  mx-1">Design</a>
+                <a class="self-nav-items flex-item text-decoration-none mx-1">Software Development</a>
+                <a class="self-nav-items flex-item text-decoration-none mx-1`">Data Analytics</a>
+                <a class="self-nav-items flex-item text-decoration-none mx-1">Cyber Security</a>
+        </div>
+
+        <div class="d-flex mx-3">
+          <p class="h5 my-3 p-2 featured-post">Featured Post</p>
+        </div>
+
+        <div class="p-3">
+            <div class="card shadow-sm" style="border-radius: 20px 20px 0px 0px;">
+                <img class="img-fluid card-img-top card-img-1" src="./assets/classroom.jpg" alt="" style="border-radius: 20px 20px 0px 0px;">
+                <div class="card-body">
+                    <p class="card-text course-type my-0 fst-italic">Design</p>
+                    <h5 class="card-title">How UX research plays an important role in the design process</h5>
+                    <p class="card-text mb-0">To call user research an important part of a UX design prcoess might seem obvious. Read more to know exactly what your users need.</p>
+
+                    <div class="d-flex flex-row">
+                      <img class="flex-item my-auto" src="./assets/profile-2.png" alt="" style="height: 30px; width: 30px;" class="rounded-circle">
+                      <div class="d-flex flex-column">
+                        <p class="mx-3 align-self-center mb-0 flex-item mt-3 align-self-center justify-content-evenly">Jayakumar N</p>
+                        <p class="mx-3 flex-item opacity-50">Feb 24 2022</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="all-blogs">
+      <div class="container-fluid">
+        <p class="title p-2 all-blog-posts mt-4 mb-1">All Blog Posts</p>
+      </div>
+
+      <!-- Blog posts -->
+
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Repeatable Component -->
+          <div class="col-12 col-sm-6 col-md-4 p-2 p-lg-3 ">
+                <!-- Single Card -->
+                <div class="card rounded-top shadow">
+                  <img class="img-fluid card-img-top card-img-1" src="./assets/post-img.jpg" alt="">
+                  <div class="card-body">
+                      <p class="card-text">Software Development</p>
+                      <h5 class="card-title">Making your first open source project</h5>
+                      <p class="card-text mb-1">To call user research an important part of .</p>
+                      <div class="d-flex flex-row">
+                        <img class="flex-item my-auto align-items-center justify-content-center" src="./assets/profile-2.png" alt="" style="height: 20px; width: 20px;" class="rounded-circle">
+                        <div class="d-flex flex-column">
+                          <p class="mx-3 mb-0 flex-item align-items-center justify-content-center fw-bold mt-3">Jayakumar N</p>
+                          <p class="mx-3 flex-item align-items-center justify-content-center opacity-50">Feb 24 2022</p>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- Single Card Ends -->
+          </div>
+          <!-- Component Ends -->
+
+          <!-- Repeatable Component -->
+          <div class="col-12 col-sm-6 col-md-4 p-2 p-lg-3 ">
+            <!-- Single Card -->
+            <div class="card rounded-top shadow">
+              <img class="img-fluid card-img-top card-img-1" src="./assets/post-img.jpg" alt="">
+              <div class="card-body">
+                  <p class="card-text">Software Development</p>
+                  <h5 class="card-title">Making your first open source project</h5>
+                  <p class="card-text mb-1">To call user research an important part of .</p>
+                  <div class="d-flex flex-row">
+                    <img class="flex-item my-auto align-items-center justify-content-center" src="./assets/profile-2.png" alt="" style="height: 20px; width: 20px;" class="rounded-circle">
+                    <div class="d-flex flex-column">
+                      <p class="mx-3 mb-0 flex-item align-items-center justify-content-center fw-bold mt-3">Jayakumar N</p>
+                      <p class="mx-3 flex-item align-items-center justify-content-center opacity-50">Feb 24 2022</p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Single Card Ends -->
+      </div>
+      <!-- Component Ends -->
+
+      <!-- Repeatable Component -->
+      <div class="col-12 col-sm-6 col-md-4 p-2 p-lg-3">
+        <!-- Single Card -->
+        <div class="card rounded-top shadow">
+          <img class="img-fluid card-img-top card-img-1" src="./assets/post-img.jpg" alt="">
+          <div class="card-body">
+              <p class="card-text">Software Development</p>
+              <h5 class="card-title">Making your first open source project</h5>
+              <p class="card-text mb-1">To call user research an important part of .</p>
+              <div class="d-flex flex-row">
+                <img class="flex-item my-auto align-items-center justify-content-center" src="./assets/profile-2.png" alt="" style="height: 20px; width: 20px;" class="rounded-circle">
+                <div class="d-flex flex-column">
+                  <p class="mx-3 mb-0 flex-item align-items-center justify-content-center fw-bold mt-3">Jayakumar N</p>
+                  <p class="mx-3 flex-item align-items-center justify-content-center opacity-50">Feb 24 2022</p>
+                </div>
+              </div>
+          </div>
+      </div>
+      <!-- Single Card Ends -->
+  </div>
+  <!-- Component Ends -->
+      </div>
+    </div>
+
+    <div class="d-flex align-items-center justify-content-center my-5">
+      <button class="flex-item btn" style="background-color: #513798; color: #ffffff; padding: 15px 50px;">Load More</button>
+    </div>
+  </section>
+
+
+  <section id="newsletter" class="p-4" style="background-color: #EDE9FC;">
+      <div class="d-flex flex-column align-items-center justify-content-center p-5">
+          <p class="newsletter-title flex-item mb-3">Wanted to be the first to know about new updates?</p>
+          <p class="newsletter-desc flex-item mb-1 mb-md-5 text-center">Get to know the latest industry news, updates, emerging technologies and many more</p>
+
+          <div class="container d-none d-md-block">
+            <div class="d-flex flex-row mx-auto justify-content-center">
+                <input type="email" class="flex-item form-control mx-2" placeholder="Enter your email address" style="max-width: 50%;">
+                <button class="flex-item btn" style="background-color: #513798; color: #ffffff; padding: 15px 45px;">Subscribe</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="container d-block d-md-none mt-0">
+            <div class="row">
+              <div class="col-12">
+                <input type="email" class="form-control mt-0 mb-3 mx-auto" placeholder="Enter your email address" style="max-width: 50%;">
+              </div>
+              <div class="col-12 text-center">
+                <button class="flex-item btn mx-auto" style="background-color: #513798; color: #ffffff; padding: 15px 45px;">Subscribe</button>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <form action="" class="d-flex flex-row container justify-content-center">
+              <input type="email" class="w-25 flex-item form-control mx-2" placeholder="Enter your email address">
+              <button class="flex-item btn" style="background-color: #5b09ac; color: #ffffff; padding: 15px 25px;">Subscribe</button>
+          </form> -->
+      </div>
+  </section>
+
+  <footer>
+    <div class="container-fluid p-5" style="color: #ffffffcf;background-color: #4B328F;">
+      <div class="row p-2">
+        <div class="col-12 col-lg-5  p-3 ">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold text-center text-lg-start mb-4 mb-md-2">Learnify</h6>
+                    <p class="mb-4 text-center text-lg-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repellendus nobis qui velit suscipit. Consectetur mollitia laudantium alias iure consequuntur.</p>
+                    <div class="d-flex icons flex-row align-items-center justify-content-center justify-content-lg-start my-5 ">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter ms-4"></i>
+                        <i class="fab fa-google ms-4"></i>
+                        <i class="fab fa-instagram ms-4"></i>
+                        <i class="fab fa-github ms-4"></i>
+                    </div>
+          
+        </div>
+        <div class="col-12 col-lg-7 ">
+          <div class="row text-start p-3">
+            <!-- Company -->
+            <div class="col-12 col-md-6 col-lg-3 my-3 my-lg-0 text-center text-lg-start">
+              <h6 class="mb-3 footer-titles">Company</h6>
+                <p class="text-reset mb-1">About Us</p>
+                <p class="text-reset mb-1">Job Board</p>
+                <p class="text-reset mb-1">Become a Mentor</p>
+                <p class="text-reset mb-1">Our Comunitymb-1</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 my-3 my-lg-0 text-center text-lg-start">
+              <h6 class="mb-3 footer-titles">Offered Courses</h6>
+              <p class="text-reset mb-1">About Us</p>
+              <p class="text-reset mb-1">Job Board</p>
+              <p class="text-reset mb-1">Become a Mentor</p>
+              <p class="text-reset mb-1">Our Comunity</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 my-3 my-lg-0 text-center text-lg-start">
+              <h6 class="mb-3 footer-titles">Resources</h6>
+              <p class="text-reset mb-1">About Us</p>
+              <p class="text-reset mb-1">Job Board</p>
+              <p class="text-reset mb-1">Become a Mentor</p>
+              <p class="text-reset mb-1">Our Comunity</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 my-3 my-lg-0 text-center text-lg-start">
+              <h6 class="mb-3 footer-titles">More</h6>
+              <p class="text-reset mb-1">About Us</p>
+              <p class="text-reset mb-1">Job Board</p>
+              <p class="text-reset mb-1">Become a Mentor</p>
+              <p class="text-reset mb-1">Our Comunity</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 mt-5">
+          <div class="d-flex align-items-center justify-content-center">
+            <p>© 2022. All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

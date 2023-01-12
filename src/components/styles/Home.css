@@ -1,0 +1,12 @@
+/* Main Section */
+.main-title{
+    text-align: center;
+    font-size: 46px;
+    font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    line-height: 2.6rem;
+}
+.main-desc{
+    color: gray;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
